@@ -1,0 +1,13 @@
+{
+  "name": "testlibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "author": "",
+  "license": "ISC",
+}
