@@ -1,3 +1,9 @@
 #!/usr/bin/env node
 
-console.log('Hello World!');
+const program = require('commander');
+
+program
+  .option('-p, --param [value]', 'Add params')
+  .parse(process.argv);
+
+console.log('receive params: %s', program.param);
