@@ -4,7 +4,9 @@
   "description": "",
   "main": "lib.js",
   "private": true,
-  "scripts": {
+  "scripts": {},
+  "bin": {
+    "mylib-cli": "cli.js"
   },
   "dependencies": {
     "path": "^0.12.7"
