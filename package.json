@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "commander": "^2.19.0",
+    "lodash": "^4.17.11",
     "path": "^0.12.7"
   },
   "author": "",
