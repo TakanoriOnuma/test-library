@@ -4,9 +4,11 @@
   "description": "",
   "main": "lib.js",
   "private": true,
-  "scripts": {},
   "bin": {
     "mylib-cli": "cli.js"
+  },
+  "scripts": {
+    "cli-test": "node cli.js --param hello"
   },
   "dependencies": {
     "commander": "^2.19.0",
@@ -14,5 +16,5 @@
     "path": "^0.12.7"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }

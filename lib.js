@@ -1,5 +1,5 @@
 const path = require('path');
-const { times, fill } = require('lodash');
+const { times } = require('lodash');
 
 const testJoin = (a, b) => {
   return path.join(a, b);
