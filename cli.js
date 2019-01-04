@@ -6,4 +6,4 @@ program
   .option('-p, --param <value>', 'Add params')
   .parse(process.argv);
 
-console.log('receive params: %s', program.param);
+console.log('receive param: %s', program.param);
